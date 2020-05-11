@@ -1,0 +1,28 @@
+body {
+    background-image: url(rocket.jpg);
+    background-size: auto 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+.menu {
+    background-color: white;
+
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
